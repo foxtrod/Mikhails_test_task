@@ -49,7 +49,7 @@ defmodule RulesTest do
   end
 
   test "not successful rules" do
-    assert IO.puts inspect Rules.calculate(
+    assert Rules.calculate(
                              [
                                %{
                                  rule:
